@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lenboxs.lenny.theebookfinder" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+       <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lenboxs.lenny.theebookfinder.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lenboxs.lenny.theebookfinder.HomeAct"
+            android:label="Home"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name="com.lenboxs.lenny.theebookfinder.BooksDisplayAct"
+            android:label="Books Display"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name="com.lenboxs.lenny.theebookfinder.BooksAct"
+            android:label="Books"
+            android:theme="@style/AppTheme"/>
+
+        <activity android:name="com.lenboxs.lenny.theebookfinder.LinksAct"
+            android:label="Links"
+            android:theme="@style/AppTheme"/>
+
+
+        <activity android:name="com.lenboxs.lenny.theebookfinder.TermsAndConditions"
+            android:label="Terms and Conditions"
+            android:theme="@style/AppTheme"/>
+    </application>
+
+</manifest>
